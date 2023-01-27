@@ -47,13 +47,14 @@ def route_handling(self):
     
     have_reponse = False
 
+    # handling 405 error (checking methods)
     if (str(self.data).split()[0][2:] == 'GET'):
         pass
     else:
         print_405_error(self)
         return
-    print(str(self.data).split()[0][2:])
 
+    # checking the directory
     if ('www' in absPath):
         header = 'HTTP/1.1 200 OK\n'
         pass

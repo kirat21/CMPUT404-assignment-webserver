@@ -24,6 +24,11 @@ root.png and deep.png contains contributions from:
 
 * Gurkirat Singh
 
+Online souces siting:
+* mozilla.org, 2023, https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
+* Emalsha, 2016, https://emalsha.wordpress.com/2016/11/24/how-create-http-server-using-python-socket-part-ii/
+* Python, 2023, https://docs.python.org/3/library/mimetypes.html
+
 But the server.py example is derived from the python documentation
 examples thus some of the code is Copyright © 2001-2013 Python
 Software Foundation; All Rights Reserved under the PSF license (GPL
